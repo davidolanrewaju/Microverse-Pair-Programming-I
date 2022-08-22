@@ -7,7 +7,97 @@
 	</head>
 
 	<body>
-		<h1>"Hello World!"</h1>
+		<h1 id="title">Survey Form</h1>
+		<p id="description">
+			Thank you for taking the time to help us improve the platform
+		</p>
+
+		<form id="survey-form">
+			<label id="name-label" type="text" placeholder="Enter your Name" required
+				>Name</label
+			><br />
+			<input id="name" /><br />
+
+			<label
+				id="email-label"
+				type="email"
+				placeholder="Enter your Email"
+				required
+				>Email</label
+			><br />
+			<input id="email" /><br />
+
+			<label
+				id="age-label"
+				type="number"
+				placeholder="Age"
+				required
+				maxlength="3"
+				>Age</label
+			><br />
+			<input id="age" /><br />
+
+			<label>Which option best describes your current role</label><br />
+			<select id="dropdown" placeholder="Select current role">
+				<option>Select current role</option>
+				<option>Student</option>
+				<option>Full-Time Job</option>
+				<option>Full-Time Learner</option>
+				<option>Prefer not to say</option>
+				<option>Others</option>
+			</select>
+
+			<label>Would you recomend Microverse to a friend</label><br />
+			<input type="radio" , name="definitely" />
+			<label>Definitely</label><br />
+			<input type="radio" , name="maybe" />
+			<label>Maybe</label><br />
+			<input type="radio" , name="not-sure" />
+			<label>Not sure</label><br />
+
+			<label>What is your favourite feature of Microverse</label><br />
+			<select id="dropdown" placeholder="Select current role">
+				<option>Select an option</option>
+				<option>Challenges</option>
+				<option>Projects</option>
+				<option>Community</option>
+				<option>Open Source</option>
+			</select>
+
+			<label>What wil you like to see improved(Check all that applies)</label
+			><br />
+			<input type="checkbox" , value="frontend" />
+			<label>Frontend Projects</label><br />
+			<input type="checkbox" , value="backend" />
+			<label>Backend Projects</label><br />
+			<input type="checkbox" , value="data-visualization" />
+			<label>Data Visualization</label><br />
+			<input type="checkbox" , value="challenges" />
+			<label>Challenges</label><br />
+			<input type="checkbox" , value="open-source" />
+			<label>Open Source Community</label><br />
+			<input type="checkbox" , value="gitter" />
+			<label>Gitter Help Rooms</label><br />
+			<input type="checkbox" , value="videos" />
+			<label>Videos</label><br />
+			<input type="checkbox" , value="City Meetups" />
+			<label>City Meetups</label><br />
+			<input type="checkbox" , value="wiki" />
+			<label>Wikis</label><br />
+			<input type="checkbox" , value="forums" />
+			<label>Forums</label><br />
+			<input type="checkbox" , value="courses" />
+			<label>Additional Courses</label><br />
+
+			<label>Any Comments or Suggestions?</label><br />
+			<textarea rows="10" , cols="50">
+    Enter your comment here
+  </textarea
+			><br />
+
+			<button id="submit">Submit</button>
+		</form>
+
 		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 		<!--
