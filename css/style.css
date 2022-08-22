@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+#title,
+#description {
+  margin: 0, auto;
+  text-align: center;
+}
+
+#survey-form {
+  margin: 0 25% 0 25%;
+  font-size: 1rem;
+  background: #acacac;
+  padding: 5rem;
+  line-height: 1.7rem;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#submit {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+form > textarea {
+  width: 100%;
+}
+
+#submit {
+  padding: 0.8rem;
+  font-size: 1rem;
+  background: green;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
